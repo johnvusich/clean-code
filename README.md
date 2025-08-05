@@ -16,3 +16,7 @@ Here is a [style guide for R](http://stat405.had.co.nz/r-style.html) and [clean-
 4. Write extensive, high-quality documentation (i.e. [sphinx](https://www.sphinx-doc.org/en/master/) and/or [pkgdown](https://pkgdown.r-lib.org/))
 5. Write self-reporting data-analyses (i.e. Rmarkdown and/or Jupyter Notebooks)
 6. Use a workflow manager (i.e. [Nextflow](https://www.nextflow.io/) and/or [Snakemake](https://snakemake.readthedocs.io/en/stable/))
+
+### Some other notes on reproducible computational workflows:
+- Continuous integration (CI) tests should use a full size dataset, when possible, for realistic input
+- Testing should be portable on AWS/GCP/Azure for scalability purposes
